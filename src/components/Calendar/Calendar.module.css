@@ -1,0 +1,58 @@
+.dayOfWeek {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 1rem;
+    font-size: large;
+}
+
+.interval {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 1rem; 
+    text-align: center;
+    
+}
+
+.firstDayOfWeek {
+    border-radius: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 6, 6);
+    color: white;
+}
+
+.otherDaysOfWeek {
+    border-radius: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.calendar {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.redLine {
+    color: red;
+}
+
+.date {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic
+}
+
+.yearAndMonth {
+    display: flex;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.year {
+    padding-left: 10px;
+   color: red;
+}
